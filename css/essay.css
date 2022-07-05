@@ -1,0 +1,78 @@
+
+/**专为写文章，因为目前还在试验阶段         **/
+/**                 **/
+section.main{
+    text-align: justify;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+section.main>h1 a:link a:hover{
+    color: #c86847;
+    text-decoration: none;
+}
+
+section.main h2, h3{
+    font-weight: 600;
+    text-indent: 2rem;
+    margin-top: 2.5rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+ hr{
+    color: #989898;
+    width: 98%;
+ }
+
+/**                    特殊标题         special title**/
+.special_title{
+    display: block;
+    /**width: 40px;**/
+    max-width: fit-content;
+    border-radius: 25px;
+    background-color: #6847c8;
+    color: aliceblue;
+
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.special_title>p{
+    padding-left: 0.3rem;
+    padding-right:0.3rem ;
+}
+/**                        作者看法                     **/
+.special_note{
+    
+    border-left: 3.5px solid #6847c8;
+    font-weight: bold;
+    margin-left: 0;
+
+}
+
+/** 插图 **/
+figure{
+    text-align: center;
+    display: block;
+    width: 300px;
+    height:300px ;
+}
+figure>img{
+    max-width: 100%;
+}
+
+
+
+/**                                      for table  **/
+tr:nth-child(2n){
+    background: #686868; 
+
+}
+
+.to_right{
+    display: block;
+    text-align: right;
+}
+
+.footer{
+    margin-top: 20px;
+    height: 40px;
+}
