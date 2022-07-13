@@ -54,9 +54,12 @@ figure{
     display: block;
     width: 300px;
     height:300px ;
+    margin: 1.8em auto;
+    
 }
 figure>img{
     max-width: 100%;
+    
 }
 
 
@@ -71,6 +74,12 @@ tr:nth-child(2n){
     display: block;
     text-align: right;
 }
+/** underline **/
+.underline{
+       text-decoration:underline; 
+    
+}
+
 
 .footer{
     margin-top: 20px;
